@@ -1,0 +1,31 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Java / Maven
+backend/target/
+backend/.idea/
+backend/*.log
+backend/*-error.txt
+
+# Node / Vite
+frontend/node_modules/
+frontend/dist/
+
+# Local editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Temporary API test payloads
+/assign-request.json
+/assign.json
+/comment-request.json
+/customer-ticket.json
+/internal-note-2.json
+/internal-note.json
+/invalid-ticket.json
+/status-request.json
+/ticket-request.json

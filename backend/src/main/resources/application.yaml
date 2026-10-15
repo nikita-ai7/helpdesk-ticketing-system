@@ -1,0 +1,19 @@
+
+spring:
+  application:
+    name: helpdesk
+
+  datasource:
+    # url: jdbc:postgresql://localhost:5432/helpdesk?options=-c%20TimeZone%3DAsia/Kolkata
+    url: jdbc:postgresql://localhost:5432/helpdesk?options=-c%20TimeZone%3DAsia%2FKolkata
+    username: devrag
+    password: ${DB_PASSWORD}
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+    properties:
+      hibernate:
+        format_sql: true
